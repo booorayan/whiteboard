@@ -1,0 +1,11 @@
+version: '3'
+services:
+  whiteboard:
+    image: rofl256/whiteboard
+    ports:
+      - "8030:8080"
+    restart: always
+# networks:
+#   default:
+#     external: True
+#     name: oona.v2
